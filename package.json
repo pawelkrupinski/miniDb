@@ -1,0 +1,28 @@
+{
+  "name": "miniDb",
+  "version": "0.1.0",
+  "description": "miniDb is an in-browser document database with fluid api and json-based matching.",
+  "keywords": [
+    "database",
+    "browser",
+    "json",
+    "collection",
+    "records",
+    "node",
+    "nodejs"
+  ],
+  "scripts": {
+    "main": "miniDb.js",
+    "test": "jest",
+    "test:watch": "npm run test -- --watch"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
+    "localStorage": "^1.0.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
