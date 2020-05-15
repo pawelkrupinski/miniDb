@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-export default class MiniDb {
+export class MiniDb {
     data = []
     dataSet = false
     storageName = undefined
@@ -157,5 +157,3 @@ class Filtered {
         return new Filtered(this.miniDb, this.filters.concat([filter]))
     }
 }
-
-module.exports = MiniDb

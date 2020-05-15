@@ -1,6 +1,7 @@
 {
-  "name": "miniDb",
+  "name": "minidb",
   "version": "0.1.0",
+  "main": "miniDb.js",
   "description": "miniDb is an in-browser document database with fluid api and json-based matching.",
   "keywords": [
     "database",
@@ -12,7 +13,6 @@
     "nodejs"
   ],
   "scripts": {
-    "main": "miniDb.js",
     "test": "jest",
     "test:watch": "npm run test -- --watch"
   },
