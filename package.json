@@ -1,5 +1,5 @@
 {
-  "name": "minidb",
+  "name": "@pawelkrupinski/mini-db",
   "version": "0.1.0",
   "main": "miniDb.js",
   "description": "miniDb is an in-browser document database with fluid api and json-based matching.",
